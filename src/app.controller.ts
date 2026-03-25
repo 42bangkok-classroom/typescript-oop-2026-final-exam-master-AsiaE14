@@ -9,9 +9,9 @@ export class AppController {
   getHello() {
     const data = this.appService.getHello();
     return {
-      success:true,
-      data:data,
-      message: "Hello NestJS"
+      success: true,
+      data: data,
+      message: 'Hello NestJS',
     };
   }
 }

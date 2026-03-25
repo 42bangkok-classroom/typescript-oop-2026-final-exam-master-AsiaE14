@@ -4,9 +4,8 @@ import { Injectable } from '@nestjs/common';
 export class AppService {
   getHello() {
     return {
-      service:"purchase-api",
-      version: "1.0.0"
-
-    }
+      service: 'purchase-api',
+      version: '1.0.0',
+    };
   }
 }
