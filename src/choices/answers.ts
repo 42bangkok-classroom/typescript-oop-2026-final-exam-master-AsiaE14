@@ -4,7 +4,7 @@
  * exmaple { "c01": "A" }
  */
 export const answers = {
-  c01: '',
+  c01: 'C',
   c02: 'B',
   c03: '',
   c04: '',
@@ -17,10 +17,10 @@ export const answers = {
   c11: '',
   c12: 'C',
   c13: '',
-  c14: '',
+  c14: 'D',
   c15: 'D',
   c16: 'B',
-  c17: '',
+  c17: 'A',
   c18: 'C',
   c19: 'B',
   c20: 'D',
