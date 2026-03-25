@@ -4,9 +4,10 @@ import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { ApiExceptionFilter } from './common/api-exception.filter';
 import { ProductModule } from './products/product.module';
+import { PurchasesModule } from './purchases/purchases.module';
 
 @Module({
-  imports: [ProductModule],
+  imports: [ProductModule,PurchasesModule],
   controllers: [AppController],
   providers: [
     AppService,
