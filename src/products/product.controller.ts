@@ -19,7 +19,7 @@ export class ProductController {
     return {
       success: true,
       data: data,
-      message: 'Hello NestJS',
+      message: 'Fetched products successfully',
     };
   }
 }
